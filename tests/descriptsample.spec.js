@@ -10,7 +10,7 @@ test.describe("Group of tcs", () => {
     console.log(name);
   });
   test("Descript second test", () => {
-    const phn = faker.phone.number("9#########");
+    const phn = faker.phone.number("8#########");
     console.log(phn);
   });
   test("Describe third test", () => {
