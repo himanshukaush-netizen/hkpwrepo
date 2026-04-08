@@ -1,6 +1,6 @@
 import { test, expect, chromium } from "@playwright/test";
 
-test("Connect to TV via CDP", async () => {
+test.skip("Connect to TV via CDP", async () => {
   try {
     const tv_id = "http://192.168.1.35:50000";
     const browser = await chromium.connectOverCDP(tv_id);
